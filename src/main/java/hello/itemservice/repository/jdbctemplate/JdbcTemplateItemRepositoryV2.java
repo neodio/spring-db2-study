@@ -20,6 +20,16 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.util.StringUtils;
 
+/**
+ * NamedParameterJdbcTemplate
+ * SqlParameterSource
+ * - BeanPropertySqlParameterSource
+ * - MapSqlParameterSource
+ * Map
+ *
+ * BeanPropertyRowMapper
+ *
+ */
 @Slf4j
 public class JdbcTemplateItemRepositoryV2 implements ItemRepository {
 

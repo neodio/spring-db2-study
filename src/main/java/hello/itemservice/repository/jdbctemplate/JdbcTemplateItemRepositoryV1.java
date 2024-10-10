@@ -17,6 +17,9 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.util.StringUtils;
 
+/**
+ * JdbcTemplate
+ */
 @Slf4j
 public class JdbcTemplateItemRepositoryV1 implements ItemRepository {
 
