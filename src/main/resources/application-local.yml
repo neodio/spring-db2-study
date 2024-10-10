@@ -1,0 +1,33 @@
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+
+  # H2 Setting Info
+  h2:
+    console:
+      enabled: true  # H2 Console
+      path: /h2-console  # H2 Console Path
+  datasource:
+    #    url: jdbc:h2:mem:datajpa # H2(In-Memory)
+    #    url: jdbc:h2:~/datajpa   # H2(Embedded)
+    url: jdbc:h2:tcp://localhost:1521/test # H2(Server)
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    properties:
+#      hibernate:
+#        #show_sql: true
+#        format_sql: true
+#        default_batch_fetch_size: 1000
+#
+#logging:
+#  level:
+#    org.hibernate.SQL: debug
+    #parameter log
+    #org.hibernate.type: trace
