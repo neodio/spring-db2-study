@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+# spring
+spring:
+  application:
+    name: spring-db2-study
+  profiles:
+    active: test
