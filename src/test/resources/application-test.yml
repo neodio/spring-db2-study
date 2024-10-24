@@ -40,7 +40,12 @@ mybatis:
 
 logging:
   level:
-    hello:
-      itemservice:
-        repository:
-          mybatis: trace
+    #    hello:
+    #      itemservice:
+    #        repository:
+    #          mybatis: trace
+    org:
+      hibernate:
+        orm:
+          jdbc:
+            bind: trace
